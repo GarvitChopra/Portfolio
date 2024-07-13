@@ -22,7 +22,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/GarvitChopra",
   resume:
-    "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
+    "https://drive.google.com/file/d/1MAe8kO1KPNRuXLDmq_Wjz0yvYyVTPr3v/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/garvit-chopra-940579209/",
   twitter: "https://twitter.com/RishavChanda",
   insta: "https://www.instagram.com/garvitchopraaa/",
@@ -31,7 +31,6 @@ export const Bio = {
   Leetcode : "https://leetcode.com/u/GarvitChopra/",
   Hackerrank: "https://www.hackerrank.com/profile/garvitchopra22",
 };
-
 export const skills = [
   {
     title: "Frontend",
@@ -194,7 +193,6 @@ export const skills = [
     ],
   },
 ];
-
 export const experiences = [
   {
     id: 0,
@@ -278,7 +276,6 @@ export const experiences = [
   },
  
 ];
-
 export const education = [
   {
     id: 0,
@@ -308,9 +305,7 @@ export const education = [
     degree: "CBSE(X), Science with Computer",
   },
 ];
-
 export const projects = [
- 
   {
     id: 4,
     title: "Campers Choice",
@@ -385,7 +380,6 @@ export const projects = [
     webapp: "https://tictactoe1245.netlify.app/",
   },
 ];
-
 export const TimeLineData = [
   { year: 2017, text: "Started my journey" },
   { year: 2018, text: "Worked as a freelance developer" },
