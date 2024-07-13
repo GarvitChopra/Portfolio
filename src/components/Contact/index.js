@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import { useForm, ValidationError } from "@formspree/react";
 import { Snackbar } from "@mui/material";
@@ -128,17 +128,41 @@ const ContactButton = styled.button`
   color: ${({ theme }) => theme.text_primary};
   font-size: 18px;
   font-weight: 600;
+  cursor: ${(props) => (props.disabled ? "not-allowed" : "pointer")};
 `;
 
 const Contact = () => {
   const [state, handleSubmit] = useForm("xrbzbqdd");
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = useState(false);
+  const [formData, setFormData] = useState({
+    email: "",
+    name: "",
+    subject: "",
+    message: ""
+  });
 
-  React.useEffect(() => {
+  const isFormFilled =
+    formData.email && formData.name && formData.subject && formData.message;
+
+  useEffect(() => {
     if (state.succeeded) {
       setOpen(true);
+      setFormData({
+        email: "",
+        name: "",
+        subject: "",
+        message: ""
+      });
     }
   }, [state.succeeded]);
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: value
+    }));
+  };
 
   return (
     <Container>
@@ -154,6 +178,8 @@ const Contact = () => {
             id="email"
             type="email"
             name="email"
+            value={formData.email}
+            onChange={handleChange}
           />
           <ValidationError prefix="Email" field="email" errors={state.errors} />
           <ContactInput
@@ -161,6 +187,8 @@ const Contact = () => {
             id="name"
             type="text"
             name="name"
+            value={formData.name}
+            onChange={handleChange}
           />
           <ValidationError prefix="Name" field="name" errors={state.errors} />
           <ContactInput
@@ -168,6 +196,8 @@ const Contact = () => {
             id="subject"
             type="text"
             name="subject"
+            value={formData.subject}
+            onChange={handleChange}
           />
           <ValidationError
             prefix="Subject"
@@ -179,13 +209,15 @@ const Contact = () => {
             id="message"
             rows="4"
             name="message"
+            value={formData.message}
+            onChange={handleChange}
           />
           <ValidationError
             prefix="Message"
             field="message"
             errors={state.errors}
           />
-          <ContactButton type="submit" disabled={state.submitting}>
+          <ContactButton type="submit" disabled={!isFormFilled || state.submitting}>
             Send
           </ContactButton>
         </ContactForm>
