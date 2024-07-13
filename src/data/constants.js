@@ -3,6 +3,12 @@ import cdot from "../images/CDOT.jpeg"
 import bharat from "../images/BharatIntern.jpeg"
 import oasis from "../images/Oasis.jpeg"
 import sparkFoundation from "../images/SparkFoundation.jpeg"
+import apple from "../images/Apple.jpg";
+import campers from "../images/Campers.jpg"
+import news from "../images/DNews.jpg"
+import yt from "../images/Youtube.jpg"
+import blog from "../images/Blogger.jpg"
+import game from "../images/tictactoe.jpg"
 
 export const Bio = {
   name: "Garvit Chopra",
@@ -307,83 +313,79 @@ export const education = [
 ];
 
 export const projects = [
-  {
-    id: 10,
-    title: "Job Finding App",
-    date: "Jun 2023 - Jul 2023",
-    description:
-      "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
-    tags: ["React Native", "JavaScript", "Axios"],
-    category: "android app",
-    github: "https://github.com/rishavchanda/Job-finder-App",
-    webapp: "https://github.com/rishavchanda/Job-finder-App",
-  },
+ 
   {
     id: 4,
-    title: "Whatsapp Clone",
-    date: "Jul 2021",
+    title: "Campers Choice",
+    // date: "Jul 2021",
     description:
-      "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
-    tags: ["React Js", "Firebase", "Firestore", "Node JS"],
+      "ChampersChoice is a full-stack website project where users can create and review campgrounds. In order to review or create a campground, you must have an account.",
+    image:campers,
+    tags: ["HTML5 ", "CSS3 ", "Bootstrap ", "jQuery ","NodeJS","ExpressJS","REST","MongoDB","PassportJS"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
-    webapp: "https://whatsapp-clone-rishav.web.app",
+    github: "https://github.com/GarvitChopra/CampersChoice",
+    webapp: "https://github.com/GarvitChopra/CampersChoice",
   },
   {
-    id: 5,
-    title: "Todo Web App",
-    date: "Jun 2021",
+    id: 10,
+    title: "Apple Vision Pro Clone",
+    // date: "Jun 2023 - Jul 2023",
     description:
-      " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
-    image:
-      "https://camo.githubusercontent.com/a328255ad96f861f57d25096d28018ab2656c689a1456b0d145764009bed2d1a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
-    tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Todo-Web-App",
-    webapp: "https://rishav-react-todo.netlify.app/",
-  },
-  {
-    id: 6,
-    title: "Breaking Bad",
-    date: "Jun 2021",
-    description:
-      "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
-    image:
-      "https://camo.githubusercontent.com/cd07010cbeb90cb1b43a5d6162784326aef02210ef7d41a0f9ae043b3e392378/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f7425323028313534292e706e673f616c743d6d6564696126746f6b656e3d65613439383630632d303435362d343333342d616435372d336239346663303333363263",
-    tags: ["React Js", "API", "Axios", "Node JS"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Breaking-Bad",
-    webapp: "https://breaking-bad-webapp.netlify.app",
+      "This project is a clone website inspired by Apple Vision Pro, aiming to replicate its impressive user interface and design. It provides users with an immersive experience similar to the original website, showcasing Apple's products and services in a visually appealing manner.",
+    image:apple,
+    tags: ["HTML", "JavaScript", "CSS"],
+    category: "android app",
+    github: "https://github.com/GarvitChopra/Apple-Vision-Pro",
+    webapp: "https://visionapplepro.netlify.app/",
   },
   {
     id: 7,
-    title: "Quiz App",
-    date: "Dec 2020 - Jan 2021",
+    title: "Youtube Clone",
+    // date: "Dec 2020 - Jan 2021",
     description:
-      "A android quiz app made with Java and Firebase. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the quiz categories and can create a new quiz. It has a leaderboard where users can see the top 10 scorers. It has a search bar where users can search for a particular quiz.",
-    image:
-      "https://github-production-user-asset-6210df.s3.amazonaws.com/64485885/239726262-c1b061d1-d9d0-42ef-9f1c-0412d14bc4f6.gif",
-    tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
-    category: "android app",
-    github: "https://github.com/rishavchanda/Quiz-Earn",
-    webapp: "https://github.com/rishavchanda/Quiz-Earn",
+      "This project is a frontend implementation of a YouTube clone, built by fetching content from an API that provides video data. It aims to replicate the core functionalities and user interface of YouTube, allowing users to browse, search, and watch videos.",
+    image:yt,
+    tags: ["React Js", "API", "Axios","HTML5","CSS3","Bootstrap","JavaScript"],
+    // category: "android app",
+    github: "https://github.com/GarvitChopra/Youtube-Clone",
+    webapp: "https://youtubeblendr.netlify.app/",
   },
   {
-    id: 8,
-    title: "Face Recognition",
-    date: "Jan 2021",
+    id: 5,
+    title: "DNews - News Application",
+    // date: "Jun 2021",
     description:
-      "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
-    image:
-      "https://camo.githubusercontent.com/a8b3e1ebf26d4c95f75bc6671189a3590eb67eb8332d7c7452492990e731efb9/68747470733a2f2f77617265686f7573652d63616d6f2e696e67726573732e636d68312e707366686f737465642e6f72672f356137383335396561323762643261633232336437656662306639303831306437373930383436312f363837343734373037333361326632663633366336663735363432653637363937343638373536323735373336353732363336663665373436353665373432653633366636643266363137333733363537343733326633383339333633363339333232663332333433343333333033333339333832663333333636363330363533333636333032643331333336333632326433313331363533373264333833323335333832643334363433303633333936333635333136353334333133393265363736393636",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "machine learning",
-    github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-    webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
+      " DNews is a single-page application that allows users to stay up-to-date on the latest news from various sources. The application uses the News API to fetch the latest news articles, which can be filtered by category to help users find the news that's most relevant to them.",
+    image:news,
+    tags: ["React Js", "HTML5","CSS3","Bootstrap","JavaScript"],
+    category: "web app",
+    github: "https://github.com/GarvitChopra/DNews",
+    webapp: "https://github.com/GarvitChopra/DNews",
+  },
+  {
+    id: 6,
+    title: "Bloggers Website",
+    // date: "Jun 2021",
+    description:
+      "This project is a simple static website showcasing various authors and their blogs. It provides users with an interface to browse through different authors and read their blog posts. The website is designed using HTML and CSS, offering a clean and intuitive user experience.",
+    image:blog,
+    tags: ["CSS", "HTML", "JavaScript"],
+    // category: "web app",
+    github: "https://github.com/GarvitChopra/Blogger-website1",
+    webapp: "https://github.com/GarvitChopra/Blogger-website1",
+  },
+ 
+  {
+    id: 8,
+    title: "Tic Tac Toe Game",
+    // date: "Jan 2021",
+    description:
+      "This project is a simple Tic-Tac-Toe game implemented using React. It allows two players to take turns marking spaces on a 3x3 grid, aiming to be the first to form a horizontal, vertical, or diagonal line of their chosen symbol. The game keeps track of scores for each player (blue and red) and persists the scores even after reloading the page.",
+    image:game,
+    tags: ["React Js","HTML5","CSS3","Bootstrap","JavaScript"],
+    // category: "machine learning",
+    github: "https://github.com/GarvitChopra/TicTacToe",
+    webapp: "https://tictactoe1245.netlify.app/",
   },
 ];
 
