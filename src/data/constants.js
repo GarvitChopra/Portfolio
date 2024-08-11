@@ -9,6 +9,7 @@ import news from "../images/DNews.jpg"
 import yt from "../images/Youtube.jpg"
 import blog from "../images/Blogger.jpg"
 import game from "../images/tictactoe.jpg"
+import diet from "../images/dietGharLogo.png"
 
 export const Bio = {
   name: "Garvit Chopra",
@@ -212,6 +213,22 @@ export const experiences = [
       "TailwindCSS",
     ],
     // doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
+  },
+  {
+    id: 0,
+    img: diet,
+    role: "NextJs Developer",
+    company: "Diet Ghar",
+    date: "June 2024 - present",
+    desc: "Involved in developing my company's primary website, leveraging diverse frontend technologies. My duties include introducing new features, enhancing performance, and ensuring the site is intuitive and responsive.",
+    skills: [
+      "NextJs",
+      "ReactJs",
+      "AWS",
+      "GraphQL",
+      "JavaScript",
+      "TailwindCSS",
+    ],
   },
   {
     id: 0,
