@@ -195,25 +195,7 @@ export const skills = [
   },
 ];
 export const experiences = [
-  {
-    id: 0,
-    img: simplyfy,
-    role: "Software Developer",
-    company: "Simplyfy",
-    date: "May 2024 - present",
-    desc: "Working on the main website of my company, using various frontend and backend technologies. My responsibilities include adding new features, improving performance, and ensuring the website is user-friendly and responsive. I collaborate with different teams to enhance our digital presence and improve customer satisfaction.",
-    skills: [
-      "NextJs",
-      "ReactJs",
-      "AWS",
-      "GraphQL",
-      "JavaScript",
-      "TypeScript",
-      "Node Js",
-      "TailwindCSS",
-    ],
-    // doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
-  },
+  
   {
     id: 0,
     img: diet,
@@ -229,6 +211,25 @@ export const experiences = [
       "JavaScript",
       "TailwindCSS",
     ],
+  },
+  {
+    id: 0,
+    img: simplyfy,
+    role: "Software Developer",
+    company: "Simplyfy",
+    date: "May 2024 - September 2024",
+    desc: "Working on the main website of my company, using various frontend and backend technologies. My responsibilities include adding new features, improving performance, and ensuring the website is user-friendly and responsive. I collaborate with different teams to enhance our digital presence and improve customer satisfaction.",
+    skills: [
+      "NextJs",
+      "ReactJs",
+      "AWS",
+      "GraphQL",
+      "JavaScript",
+      "TypeScript",
+      "Node Js",
+      "TailwindCSS",
+    ],
+    // doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
   },
   {
     id: 0,
