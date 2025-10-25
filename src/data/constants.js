@@ -1,15 +1,16 @@
-import simplyfy from "../images/Simplyfy.jpeg"
-import cdot from "../images/CDOT.jpeg"
-import bharat from "../images/BharatIntern.jpeg"
-import oasis from "../images/Oasis.jpeg"
-import sparkFoundation from "../images/SparkFoundation.jpeg"
+import simplyfy from "../images/Simplyfy.jpeg";
+import cdot from "../images/CDOT.jpeg";
+import bharat from "../images/BharatIntern.jpeg";
+import oasis from "../images/Oasis.jpeg";
+import sparkFoundation from "../images/SparkFoundation.jpeg";
 import apple from "../images/Apple.jpg";
-import campers from "../images/Campers.jpg"
-import news from "../images/DNews.jpg"
-import yt from "../images/Youtube.jpg"
-import blog from "../images/Blogger.jpg"
-import game from "../images/tictactoe.jpg"
-import diet from "../images/dietGharLogo.png"
+import campers from "../images/Campers.jpg";
+import news from "../images/DNews.jpg";
+import yt from "../images/Youtube.jpg";
+import blog from "../images/Blogger.jpg";
+import game from "../images/tictactoe.jpg";
+import diet from "../images/dietGharLogo.png";
+import tcs from "../images/tcs.png";
 
 export const Bio = {
   name: "Garvit Chopra",
@@ -23,13 +24,13 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/GarvitChopra",
   resume:
-    "https://drive.google.com/file/d/1MAe8kO1KPNRuXLDmq_Wjz0yvYyVTPr3v/view?usp=sharing",
+    "https://drive.google.com/file/d/1K6Q62Uen0jCNZvOgSrwZcr5HN8YGdUjd/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/garvit-chopra-940579209/",
   twitter: "https://twitter.com/RishavChanda",
   insta: "https://www.instagram.com/garvitchopraaa/",
   facebook: "https://www.facebook.com/rishav.chanda.165/",
   geeksforgeeks: "https://www.geeksforgeeks.org/user/garvitch9rvw/",
-  Leetcode : "https://leetcode.com/u/GarvitChopra/",
+  Leetcode: "https://leetcode.com/u/GarvitChopra/",
   Hackerrank: "https://www.hackerrank.com/profile/garvitchopra22",
 };
 export const skills = [
@@ -195,7 +196,22 @@ export const skills = [
   },
 ];
 export const experiences = [
-  
+  {
+    id: 0,
+    img: tcs,
+    role: "Software Developer",
+    company: "Tata Consultancy Services",
+    date: "June 2024 - present",
+    desc: "Built and maintained responsive web applications using React.js, Tailwind CSS, and Material UI, ensuring modern, scalable, and user-friendly interfaces aligned with client requirements. Integrated GraphQL and REST APIs to deliver dynamic, data-driven functionalities while optimizing overall application performance. Deployed and managed applications on AWS with CI/CD pipelines to enable smooth, reliable, and scalable delivery. Collaborated closely with cross-functional teams in an Agile environment, enhancing development speed, code quality, and ensuring timely feature releases.",
+    skills: [
+      "React.js",
+      "JavaScript (ES6+)",
+      "Material UI",
+      "REST API Integration",
+      "AWS",
+      "CI/CD Pipelines",
+    ],
+  },
   {
     id: 0,
     img: diet,
@@ -238,14 +254,7 @@ export const experiences = [
     company: "Centre for Development of Telematics (C-DOT)",
     date: "Aug 2023 - Sept 2023",
     desc: "● Led the software development initiative for Project NCCS.gov, achieving a 30% performance enhancement through the strategic migration from a simple website to ReactJS",
-    skills: [
-      "ReactJS",
-      "NodeJs",
-      "Material UI",
-      "HTML",
-      "CSS",
-      "JavaScript",
-    ],
+    skills: ["ReactJS", "NodeJs", "Material UI", "HTML", "CSS", "JavaScript"],
     // doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
   },
   {
@@ -272,9 +281,7 @@ export const experiences = [
     company: "Oasis Infobyte",
     date: "May 2023 - June 2023",
     desc: "Managed the user interface with HTML, CSS, JavaScript, and ReactJS to deliver a compelling, dynamic, and responsive web experience for optimal user engagement and Created reusable components to optimize the code and speed of the web app",
-    skills: [
-      "ReactJS", "NodeJS", "HTML", "CSS", "javascript", "Bootstrap"
-    ],
+    skills: ["ReactJS", "NodeJS", "HTML", "CSS", "javascript", "Bootstrap"],
     // doc: "https://media.licdn.com/dms/image/D4D22AQGzSpgFaR4hsQ/feedshare-shrink_800/0/1684079632872?e=1687996800&v=beta&t=i0xWn_k32Oj9SxKfc6rARSbOghXD9Ge6WyEb2p2vvrc",
   },
   {
@@ -284,15 +291,8 @@ export const experiences = [
     company: "The Sparks Foundation",
     date: "Nov2021 - Present",
     desc: "Designed and implemented the user interface utilizing HTML, CSS, JavaScript, and ReactJS, ensuring a dynamic, engaging, and responsive web experience to maximize user interaction. Developed reusable components to enhance code efficiency and improve the performance of the web application.",
-    skills: [
-      "ReactJS",
-      "Material UI",
-      "HTML",
-      "CSS",
-      "JavaScript",
-    ],
+    skills: ["ReactJS", "Material UI", "HTML", "CSS", "JavaScript"],
   },
- 
 ];
 export const education = [
   {
@@ -330,8 +330,18 @@ export const projects = [
     // date: "Jul 2021",
     description:
       "ChampersChoice is a full-stack website project where users can create and review campgrounds. In order to review or create a campground, you must have an account.",
-    image:campers,
-    tags: ["HTML5 ", "CSS3 ", "Bootstrap ", "jQuery ","NodeJS","ExpressJS","REST","MongoDB","PassportJS"],
+    image: campers,
+    tags: [
+      "HTML5 ",
+      "CSS3 ",
+      "Bootstrap ",
+      "jQuery ",
+      "NodeJS",
+      "ExpressJS",
+      "REST",
+      "MongoDB",
+      "PassportJS",
+    ],
     category: "web app",
     github: "https://github.com/GarvitChopra/CampersChoice",
     webapp: "https://github.com/GarvitChopra/CampersChoice",
@@ -342,7 +352,7 @@ export const projects = [
     // date: "Jun 2023 - Jul 2023",
     description:
       "This project is a clone website inspired by Apple Vision Pro, aiming to replicate its impressive user interface and design. It provides users with an immersive experience similar to the original website, showcasing Apple's products and services in a visually appealing manner.",
-    image:apple,
+    image: apple,
     tags: ["HTML", "JavaScript", "CSS"],
     category: "android app",
     github: "https://github.com/GarvitChopra/Apple-Vision-Pro",
@@ -354,8 +364,16 @@ export const projects = [
     // date: "Dec 2020 - Jan 2021",
     description:
       "This project is a frontend implementation of a YouTube clone, built by fetching content from an API that provides video data. It aims to replicate the core functionalities and user interface of YouTube, allowing users to browse, search, and watch videos.",
-    image:yt,
-    tags: ["React Js", "API", "Axios","HTML5","CSS3","Bootstrap","JavaScript"],
+    image: yt,
+    tags: [
+      "React Js",
+      "API",
+      "Axios",
+      "HTML5",
+      "CSS3",
+      "Bootstrap",
+      "JavaScript",
+    ],
     // category: "android app",
     github: "https://github.com/GarvitChopra/Youtube-Clone",
     webapp: "https://youtubeblendr.netlify.app/",
@@ -366,8 +384,8 @@ export const projects = [
     // date: "Jun 2021",
     description:
       " DNews is a single-page application that allows users to stay up-to-date on the latest news from various sources. The application uses the News API to fetch the latest news articles, which can be filtered by category to help users find the news that's most relevant to them.",
-    image:news,
-    tags: ["React Js", "HTML5","CSS3","Bootstrap","JavaScript"],
+    image: news,
+    tags: ["React Js", "HTML5", "CSS3", "Bootstrap", "JavaScript"],
     category: "web app",
     github: "https://github.com/GarvitChopra/DNews",
     webapp: "https://github.com/GarvitChopra/DNews",
@@ -378,21 +396,21 @@ export const projects = [
     // date: "Jun 2021",
     description:
       "This project is a simple static website showcasing various authors and their blogs. It provides users with an interface to browse through different authors and read their blog posts. The website is designed using HTML and CSS, offering a clean and intuitive user experience.",
-    image:blog,
+    image: blog,
     tags: ["CSS", "HTML", "JavaScript"],
     // category: "web app",
     github: "https://github.com/GarvitChopra/Blogger-website1",
     webapp: "https://github.com/GarvitChopra/Blogger-website1",
   },
- 
+
   {
     id: 8,
     title: "Tic Tac Toe Game",
     // date: "Jan 2021",
     description:
       "This project is a simple Tic-Tac-Toe game implemented using React. It allows two players to take turns marking spaces on a 3x3 grid, aiming to be the first to form a horizontal, vertical, or diagonal line of their chosen symbol. The game keeps track of scores for each player (blue and red) and persists the scores even after reloading the page.",
-    image:game,
-    tags: ["React Js","HTML5","CSS3","Bootstrap","JavaScript"],
+    image: game,
+    tags: ["React Js", "HTML5", "CSS3", "Bootstrap", "JavaScript"],
     // category: "machine learning",
     github: "https://github.com/GarvitChopra/TicTacToe",
     webapp: "https://tictactoe1245.netlify.app/",

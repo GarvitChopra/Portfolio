@@ -1,12 +1,12 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 // import FacebookIcon from '@mui/icons-material/Facebook';
 // import TwitterIcon from '@mui/icons-material/Twitter';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import InstagramIcon from '@mui/icons-material/Instagram';
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import InstagramIcon from "@mui/icons-material/Instagram";
 import { SiGeeksforgeeks } from "react-icons/si";
 import { SiLeetcode } from "react-icons/si";
 import { SiHackerrank } from "react-icons/si";
-import { Bio } from '../../data/constants';
+import { Bio } from "../../data/constants";
 
 const FooterContainer = styled.div`
   width: 100%;
@@ -47,7 +47,7 @@ const Nav = styled.nav`
   }
 `;
 const NavLink = styled.a`
-color: ${({ theme }) => theme.text_primary};
+  color: ${({ theme }) => theme.text_primary};
   text-decoration: none;
   font-size: 1.2rem;
   transition: color 0.2s ease-in-out;
@@ -93,16 +93,25 @@ function Footer() {
         <SocialMediaIcons>
           {/* <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon> */}
           {/* <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon /></SocialMediaIcon> */}
-          <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.geeksforgeeks} target='display'><SiGeeksforgeeks/></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.Leetcode} target='display'><SiLeetcode/></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.Hackerrank} target='display'><SiHackerrank/></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.linkedin} target="display">
+            <LinkedInIcon />
+          </SocialMediaIcon>
+          <SocialMediaIcon href={Bio.insta} target="display">
+            <InstagramIcon />
+          </SocialMediaIcon>
+          <SocialMediaIcon href={Bio.geeksforgeeks} target="display">
+            <SiGeeksforgeeks />
+          </SocialMediaIcon>
+          <SocialMediaIcon href={Bio.Leetcode} target="display">
+            <SiLeetcode />
+          </SocialMediaIcon>
+          <SocialMediaIcon href={Bio.Hackerrank} target="display">
+            <SiHackerrank />
+          </SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2024 Garvit Chopra. All rights reserved.
+          &copy; {new Date().getFullYear()} Garvit Chopra. All rights reserved.
         </Copyright>
-
       </FooterWrapper>
     </FooterContainer>
   );
